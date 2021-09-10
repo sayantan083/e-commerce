@@ -1,0 +1,42 @@
+.root{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    background-color: #eee;
+    margin: 10px;
+    padding: 10px;
+}
+.name{
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(240, 107, 107);
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 3px 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+.modify{
+    width: 100px;
+    background-color: rgb(240, 107, 107);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.units{
+    padding: 3px 8px;
+    margin: 3px;
+}
+@media(max-width: 500px) {
+    .root{
+        grid-template-columns: auto;
+    }
+}

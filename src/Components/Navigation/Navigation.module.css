@@ -1,0 +1,14 @@
+.root{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    font-weight: 700;
+}
+.logo{
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+}

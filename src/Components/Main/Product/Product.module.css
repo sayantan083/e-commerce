@@ -1,0 +1,44 @@
+.root{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.image{
+    background-color: #eee;
+    color: black;
+}
+.box{
+    padding: 10px;
+    margin: 10px;
+}
+.price{
+    font-weight: 600;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(240, 107, 107);
+    border: none;
+    font-size: large;
+    color: white;
+    padding: 3px 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+.units{
+    padding: 3px 8px;
+    margin: 3px;
+}
+.modify{
+    width: 100px;
+    background-color: rgb(240, 107, 107);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 700px) {
+    .root{
+        grid-template-columns: auto;
+    }
+}
