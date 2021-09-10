@@ -3,11 +3,11 @@ import Product from "./Components/Main/Product/Product";
 import Navigation from "./Components/Navigation/Navigation";
 import Cart from './Components/Cart/Cart'
 import OrderSummary from "./Components/OrderSummary/OrderSummary";
-const { Switch, HashRouter, Route } = require("react-router-dom");
+const { Switch, BrowserRouter, Route } = require("react-router-dom");
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div>
         <Navigation />
         <Switch>
@@ -17,7 +17,7 @@ function App() {
           <Route path='/orderSummary' component={OrderSummary}/>
         </Switch>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
